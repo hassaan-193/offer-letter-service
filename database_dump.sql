@@ -36,10 +36,11 @@ CREATE TABLE `admins` (
 
 --
 -- Dumping data for table `admins`
--- Default password: ChangeThisPassword
+-- Default password for both accounts: password
 --
 INSERT INTO `admins` (`id`, `name`, `email`, `password`, `created_at`, `updated_at`) VALUES
-(1, 'System Administrator', 'admin@example.com', '$2y$12$eU.5lQf4mFmX6dYcW0jYPeQ7rZ5xH1bHq0Yt.1m5VnZlQ7K2q3bO6', NOW(), NOW());
+(1, 'System Administrator', 'admin@example.com', '$2y$10$JUcIhRwUKCXriqZLztYkbuk7NQHYgUbzx91IpCG04bsibz0rg3G2u', NOW(), NOW()),
+(2, 'FTS Administrator', 'admin@fts.ae', '$2y$10$JUcIhRwUKCXriqZLztYkbuk7NQHYgUbzx91IpCG04bsibz0rg3G2u', NOW(), NOW());
 
 -- --------------------------------------------------------
 
