@@ -12,10 +12,9 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `offer_letter_service`
+-- Offer Letter Service Database Tables & Data
 --
-CREATE DATABASE IF NOT EXISTS `offer_letter_service` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE `offer_letter_service`;
+
 
 -- --------------------------------------------------------
 
